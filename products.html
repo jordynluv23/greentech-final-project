@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenTech Solutions | Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="index.html">GreenTech Solutions</a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a class="active" href="products.html">Products/Services</a></li>
+        <li><a href="blog.html">Blog/Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="final.html">The Final</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" class="page">
+    <h1>Products and Services</h1>
+    <p>These are some of the main ways GreenTech helps businesses become more eco-friendly. Use the search box to narrow it down.</p>
+
+    <label for="productSearch">Search products or services</label>
+    <input type="text" id="productSearch" placeholder="Try energy, recycling, carbon, or consulting">
+
+    <section class="product-grid">
+      <article class="product-card" data-name="energy smart plug electricity power saving">
+        <img src="images/energy.jpg" alt="Energy-saving technology">
+        <h2>Eco Smart Plug</h2>
+        <p>This helps a business control office devices and avoid wasting electricity when things are not being used.</p>
+      </article>
+
+      <article class="product-card" data-name="recycling smart bin trash waste sorting">
+        <img src="images/recycling.jpg" alt="Recycling containers for sorting waste">
+        <h2>Smart Recycling Bin</h2>
+        <p>This helps employees know where items should go and gives the business a better idea of its recycling habits.</p>
+      </article>
+
+      <article class="product-card" data-name="carbon tracking software reports emissions">
+        <img src="images/carbon.jpg" alt="Computer screen showing environmental tracking information">
+        <h2>CarbonTrack Software</h2>
+        <p>This software shows a business how much carbon impact it has and makes the information easier to understand.</p>
+      </article>
+
+      <article class="product-card" data-name="consulting sustainability green business help">
+        <img src="images/consulting.jpg" alt="Consultant helping with a sustainability plan">
+        <h2>Green Business Planning</h2>
+        <p>This service gives businesses a step-by-step plan for saving energy, reducing waste, and setting realistic goals.</p>
+      </article>
+    </section>
+
+    <p id="noResults" class="message" hidden>No results found. Try another word.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 GreenTech Solutions</p>
+  </footer>
+</body>
+</html>
